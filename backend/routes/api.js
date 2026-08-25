@@ -3,7 +3,9 @@ const router = express.Router();
 
 router.get('/test', (req, res) => {
     res.send({
-        message: "working fine"
+        status: "ok",
+        message: "server API working fine",
+        timestamp: new Date().toISOString(),
     });
 });
 
