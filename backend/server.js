@@ -12,6 +12,5 @@ app.use(express.json())
 app.use('/api', apiRoutes)
 
 app.listen(PORT, () => {
-    console.log("server running");
-
+    console.log(`server running on port ${PORT}`);
 });
