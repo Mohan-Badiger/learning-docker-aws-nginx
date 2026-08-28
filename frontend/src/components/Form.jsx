@@ -10,7 +10,7 @@ const Form = () => {
                     </div>
                 </div>
                 <div className=' w-1/2 bg-linear-to-bl from-purple-500 via-indigo-500 to-blue-500'>
-                    Right</div>
+                    Right iv</div>
             </div>
         </div>
     )
