@@ -9,7 +9,8 @@ const Form = () => {
                         <h1 className='font-medium text-2xl'>Welcome User</h1>
                     </div>
                 </div>
-                <div className=' w-1/2 bg-linear-to-bl from-purple-500 via-indigo-500 to-blue-500'></div>
+                <div className=' w-1/2 bg-linear-to-bl from-purple-500 via-indigo-500 to-blue-500'>
+                    Right</div>
             </div>
         </div>
     )
