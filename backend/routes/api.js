@@ -20,7 +20,6 @@ router.post('/login', (req, res) => {
             message: "Email and password are required"
         });
     }
-
     console.log("Received login request for:", email);
 
     if (password.length < 6) {
