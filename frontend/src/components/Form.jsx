@@ -22,7 +22,6 @@ const Form = () => {
         }
     }
 
-
     return (
         <div className='flex h-screen justify-center items-center'>
             <div className='flex w-190 h-130'>
