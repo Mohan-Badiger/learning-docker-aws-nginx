@@ -6,6 +6,7 @@ const Form = () => {
     const [password, setPassword] = useState('');
 
     const handleSubmit = async (e) => {
+
         e.preventDefault();
 
         try {
